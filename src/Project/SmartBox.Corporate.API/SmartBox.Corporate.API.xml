@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SmartBox.Corporate.API</name>
+    </assembly>
+    <members>
+        <member name="M:SmartBox.Corporate.API.Controllers.AuthenticateController.LogIn(SmartBox.Business.Core.Models.User.LogInModel)">
+            <summary>
+            Log in the user
+            </summary>
+            <param name="user">Request's payload</param>
+            <returns> returns model  with token when success</returns>
+            <remarks> username and password cannot be empty </remarks>
+            <response code="200">User successfully log-in</response>
+        </member>
+        <member name="M:SmartBox.Corporate.API.Controllers.UserController.RegisterUser(SmartBox.Business.Core.Models.User.UserFormModel)">
+            <summary>
+            Register User
+            </summary>
+            <param name="userFormModel">Request's payload</param>
+            <returns> returns PostRegistrationModel with token when success</returns>
+            <remarks> all fields are required</remarks>
+            <response code="200">User successfully registered</response>
+        </member>
+    </members>
+</doc>

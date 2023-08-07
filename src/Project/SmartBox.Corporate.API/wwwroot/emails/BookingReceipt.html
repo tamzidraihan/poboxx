@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style type="text/css">
+
+        .w-34 {
+            width: 34%;
+        }
+        .vl {
+            border-left: 2px solid black;
+            height: 36px;
+        }
+
+        .hl {
+            border-left: 2px solid black;
+            width: 36px;
+        }
+
+        .w-66 {
+            width: 66%;
+        }
+
+        .left-header {
+            text-align: left;
+        }
+
+        .p-10 {
+            padding: 10px;
+        }
+
+        .second-td {
+            width: 40%;
+        }
+
+        table {
+            border: 1px solid;
+            overflow: auto;
+        }
+
+            table th {
+                margin-top: 2%;
+                font-weight: normal;
+            }
+
+        .bold {
+            font-weight: bold;
+        }
+
+        .m-18 {
+            margin-left: 18px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+            ul li {
+                padding: 4px;
+            }
+
+        .icon {
+            font-size: 14px
+        }
+
+        .m-r-25 {
+            margin-right: 25%;
+        }
+
+        body {
+            font-family: Arial;
+        }
+
+        .w-4 {
+            width: 4%;
+        }
+
+        .w-3 {
+            width: 3%;
+        }
+
+        .bg-white {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <img class="w-34" src="{LOGO-IMAGE-URL}" />
+    <h2 class="w-34">Thanks for choosing <span>{COMPANY-NAME},</span>!</h2>
+    <table class="w-66">
+        <tr class="bg-white">
+            <th class="left-header">
+                <ul>
+                    <li class="m-18">
+                        <span class="bold">Name:</span>{NAME}
+                    </li>
+                    <li class="m-18">
+                        <span class="bold">Contact No:</span> {CONTACT-NO}
+                    </li>
+                </ul>
+            </th>
+            <th><div class="vl"></div></th>
+            <th class="right-header">
+                <ul>
+                    <li>
+                        <span class="bold"> Total Amount </span>
+                    </li>
+                    <li class="m-18">
+                        <span class="bold">  {CURRENCY}: </span> {TOTAL-PRICE}
+                    </li>
+
+                </ul>
+            </th>
+        </tr>
+        {BODY}
+        <!--<tr>
+        <td colspan="3"><hr /></td>
+    </tr>
+    <tr>
+
+        <th class="left-header">
+            <ul>
+                <li class="bold">
+                    <img class="w-3" src="{CALENDAR-IMAGE-URL}" />  Storage Date Duration
+                </li>
+                <li class="m-18">
+                    <span class="bold">From:</span> {FROM-DATE}
+                </li>
+                <li class="m-18">
+                    <span class="bold">To: </span> {TO-DATE}
+                </li>
+            </ul>
+        </th>
+        <th></th>
+        <th class="right-header">
+            <ul>
+                <li>
+                    <img class="w-4" src="{LOCATION-IMAGE-URL}" />  <span class="bold">Location: </span> {LOCATION}
+                </li>
+                <li class="m-18">
+                    <img class="w-4" src="{LOCKER-URL}" />  <span class="bold">Locker Size:</span> {LOCKER-SIZE}
+                </li>
+
+            </ul>
+        </th>
+    </tr>
+    <tr style="background-color:white">
+        <td class="p-10" colspan="2">
+
+            <ul>
+                <li class="bold">
+                    <img class="w-3" src="{USER-IMAGE-URL}" />   Receiver Detail
+                </li>
+                <li class="m-18">
+                    <span class="bold">Name:</span> {RECEIVER-NAME}
+                </li>
+                <li class="m-18">
+                    <span class="bold">Mobile Number:</span> {RECEIVER-MOB-NO}
+                </li>
+                <li>
+                    <img class="w-3" src="{REF-NO-IMAGE-URL}" /> <span class="bold">Reference Number:</span> {REF-NO}
+                </li>
+            </ul>
+        </td>
+        <td>
+            <ul>
+                <li class="bold">
+                    <img class="w-4" src="../Images/payment.png" />  Payment Detail
+                </li>
+                <li class="m-18">
+                    <span class="bold">
+                        Storage Price(PHP):
+                    </span> 180.00
+                    <hr class="m-r-25" />
+                </li>
+                <li class="m-18">
+                    <span class="bold">Total Price(PHP):</span> 180.00
+                </li>
+            </ul>
+        </td>
+    </tr>-->
+    </table>
+
+</body>
+</html>
